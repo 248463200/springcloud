@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: api-gataway
+server:
+  port: 5001
+
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: eureka-client
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:1001/eureka/

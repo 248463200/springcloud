@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eureka-client
+
+server:
+  port: 2001
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:1001/eureka/
+      # ,http://peer2:1002/eureka/
+      #服务同步
+      #当服务提供者发送注册请求到一个服务注册中心时，它会将请求转发到其他服务注册中心
