@@ -9,6 +9,7 @@ zuul:
     api-a:
       path: /api-a/**
       serviceId: eureka-client
+  add-host-header: true
 
 eureka:
   client:

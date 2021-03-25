@@ -9,13 +9,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api-gataway" />
         <module name="eureka-client" />
-        <module name="eureka-server" />
         <module name="eureka-consumer" />
+        <module name="eureka-server" />
+        <module name="config-server" />
         <module name="eureka-consumer-ribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gataway" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-consumer" target="1.8" />
       <module name="eureka-consumer-ribbon" target="1.8" />
