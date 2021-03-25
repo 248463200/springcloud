@@ -5,7 +5,10 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/248463200/springcloud/tree/master/config-server/src/main/resources
+          search-paths: '{application}'
+          username: 248463200@qq.com
+          password: NIBIABIpyh1997
 
 server:
   port: 6001
